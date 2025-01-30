@@ -1,0 +1,139 @@
+.video {
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    width: auto;
+}
+
+.nav-ul {
+    margin: 0;
+}
+
+.video video {
+    position: absolute;
+    z-index: -9999;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.Letters {
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 0px -100px 100px rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    object-fit: cover;
+}
+.Letters h3{
+    padding: 15px;
+    
+}
+.Letters button{
+    color: aliceblue;
+    background-color:black;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    outline: 5px white;
+    border: solid 1px white;
+    cursor: pointer;
+    transition:all ease 0.2s;
+    object-fit: cover;
+}
+button:hover{
+    background-image: linear-gradient(90deg,rgba(128, 128, 128, 0.207),rgba(255, 255, 255, 0.174));
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.855);
+    object-fit: cover;
+}
+.logo{
+    padding: 20px 0px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 140%;
+    
+}
+.Letters3{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.Letters2 h1{
+    margin-top: 10px;
+    padding: 10px;
+}
+.Letters2 img{
+    margin-top: 5%;
+    width: 80%;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    object-fit: cover;    
+}
+.Letters3 h2{
+    margin-top: 10px;
+    color: aliceblue;
+    margin-left: 50px;
+}
+.Letters3 p{
+    margin-top:10px ;
+    color: aliceblue;
+    margin-left: 50px;
+
+}
+.Letters3 img{
+    width: 40%;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+.man1{
+    margin-top: 10px 0px;
+
+}
+.man2 img{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.man2 h2{
+    margin-top: 10px;
+    color: aliceblue;
+    margin-left: 50%;
+    margin-top: -16%;
+}
+.man2 p{
+    margin-top: 10px;
+    color: aliceblue;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+.man4 h2{
+    margin-top: 25%;
+    color: aliceblue;
+    margin-left: 50px;
+}
+.man4 p{
+    margin-top: 10px;
+    color: aliceblue;
+    margin-left: 50px;
+} 
+.man3 img{
+    width:40%;
+    margin-left:55%;
+    margin-top: -10%; 
+    border-radius: 10px;
+}
+
+
