@@ -147,7 +147,7 @@ body {
 .over-float {
     width: 100%;
     height: 100vh;
-    background-image: url(assets/svg/bg-grid.svg);
+    background-image: url(/leonardoai/assets/svg/bg-grid.svg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
