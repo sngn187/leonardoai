@@ -1205,20 +1205,21 @@ padding: 10px;
         padding-top: 50px;
         top: 0;
         left: 0;
-        width: 60%;
-        overflow: hidden;
+        width: 200px;
         height: auto;
         background-color: #000000;
         opacity: 0;
         z-index: -1;
         transition: all ease 0.2s;
+        overflow: hidden;
+
     }
     .three-dot:hover + .mobile-navber {
         height: 100vh;
         opacity: 1;
     }
     .mobile-navber ul {
-        width: 70%;
+        width: 200px;
         display: flex;
         flex-direction: column;
     }
